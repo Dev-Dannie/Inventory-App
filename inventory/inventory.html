@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="inventory.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inventory</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+    <body>
+        <section class="section-container">
+            <form class="form-container">
+                <p id="prompt"> </p>
+                    <h3>inventory-list</h3> 
+                    <div class="item-entry">
+                        <input type="text" id="inventory" placeholder="Enter an item" />
+                        <button type="submit" class="submit-btn">
+                            submit
+                        </button>
+                    </div>
+            </form>
+
+            <div class="item-container">
+                <div class="item-list">
+                   
+                    
+                </div>
+                <button type="button" id="clear-btn">
+                    clear items
+                </button>
+            </div>
+        </section>
+    </body>
+    <script src="inventory.js"></script>
+</html>
